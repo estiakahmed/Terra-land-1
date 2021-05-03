@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+/*header area*/
+div#navbarSupportedContent {
+    float: left;
+    /* overflow: hidden; */
+    padding-left: 260px;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0.navmenu {
+    padding-right: 0px;
+}
+
+ul.navbar-nav.me-auto.mb-2.mb-lg-0.navmenu li a {
+    padding-right: 16px;
+    font-weight: 500;
+    color: black;
+}
+img.logo {
+    width: 193px;
+}
+div#navbarSupportedContent ul li a:hover {
+    color: #2a2d69;
+}
+
+/*header area end*/
+
+/*hero area start*/
+.herosection {
+    background-image: url(image/1.png);
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col-lg-10.herotextarea h1 {
+    color: white;
+    font-family: 'Poppins';
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 110px;
+}
+
+.col-lg-10.herotextarea h2 {
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.col-lg-10.herotextarea p {
+    color: white;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+button.discoverbtn {
+    outline: none;
+    border: none;
+    padding: 14px;
+    font-size: 18px;
+    letter-spacing: 4px;
+    border-radius: 5px;
+    background: #85854F;
+    color: white;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+}
+
+button.discoverbtn:hover {
+    background: #30346e;
+}
+/*hero area end*/
+
+/*icon section start*/
+.iconsection {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/*icon section end*/
+
+/*image section start*/
+.imagesection {
+    background-image: url(image/ag.jpg);
+    width: 100%;
+    height: 422px;
+    background-size: cover;
+}
+img.bgimg {
+    background-size: cover;
+    width: 100%;
+    height: 422px;
+}
+/*images section end*/
+
+
+/*about section start*/
+.aboutsection {
+    padding-top: 550px;
+    overflow: hidden;
+}
+
+.row.abouttxt {
+    border: 2px solid;
+    padding: 38px;
+}
+.headertxt.col-md-9 h1 {
+    font-size: 46px;
+    font-weight: bold;
+    color: #2e326c;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
+.tree.col-md-3 {
+    margin: auto;
+    text-align: center;
+}
+/*about section end*/
+
+/*video section start*/
+
+.agriculturaltxt.col-md-7 h1 {
+    font-size: 41px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.agriculturaltxt.col-md-7 h3 {
+    font-size: 30px;
+    color: #2e326c;
+    padding-top: 35px;
+}
+
+.agriculturaltxt.col-md-6 p {
+    width: 500px;
+    padding-top: 10px;
+}
+
+dvi.video.col-md-6 img {width: 300px;float: right;overflow: hidden;margin-top: 80px;}
+.video {
+    padding-bottom: 0px;
+}
+.video.col-md-5 img {
+    width: 325px;
+    float: right;
+    padding-top: 74px;
+}
+
+/*video section end*/
+
+/*footer area start*/
+.footer {
+    background-image: url(image/footer.png);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    text-align: center;
+}
+.footer.col-lg-12.col-md-12.col-sm-6 {
+    text-align: center;
+}
+img.footerlogo {
+    padding-top: 230px;
+    padding-bottom: 30px;
+}
+.icon svg {
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+p.footertxtp {
+    color: white;
+}
+
+.icon p {
+    color: white;
+    padding-top: 38px;
+}
+/*footer area end*/
