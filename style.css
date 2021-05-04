@@ -7,7 +7,7 @@
 div#navbarSupportedContent {
     float: left;
     /* overflow: hidden; */
-    padding-left: 245px;
+    padding-left: 240px;
 }
 ul.navbar-nav.me-auto.mb-2.mb-lg-0.navmenu {
     padding-right: 0px;
@@ -46,7 +46,7 @@ div#navbarSupportedContent ul li a:hover {
 
 .col-lg-10.herotextarea h2 {
     color: white;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 500;
 }
 
